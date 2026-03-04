@@ -35,3 +35,4 @@ export { default as spatialHash } from "./spatial-hash.js";
 export { default as turtle } from "./turtle.js";
 export { default as svgPath } from "./svg-path.js";
 export { default as canvasUtils } from "./canvas-utils.js";
+export { default as symbolDraw } from "./symbol-draw.js";
