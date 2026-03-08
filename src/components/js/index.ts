@@ -53,3 +53,7 @@ export { default as forcePack } from "./force-pack.js";
 export { default as gravitySettle } from "./gravity-settle.js";
 export { default as conformal } from "./conformal.js";
 export { default as spaceFill } from "./space-fill.js";
+export { default as brushStrokePaths } from "./brush-stroke-paths.js";
+export { default as gridPlacement } from "./grid-placement.js";
+export { default as curlFlowField } from "./curl-flow-field.js";
+export { default as bristleStrokeRenderer } from "./bristle-stroke-renderer.js";
