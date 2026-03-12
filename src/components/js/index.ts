@@ -57,3 +57,7 @@ export { default as brushStrokePaths } from "./brush-stroke-paths.js";
 export { default as gridPlacement } from "./grid-placement.js";
 export { default as curlFlowField } from "./curl-flow-field.js";
 export { default as bristleStrokeRenderer } from "./bristle-stroke-renderer.js";
+export { default as parametricLSystem } from "./parametric-lsystem.js";
+export { default as phyllotaxisEngine } from "./phyllotaxis-engine.js";
+export { default as tropism } from "./tropism.js";
+export { default as plantGrowth } from "./plant-growth.js";
