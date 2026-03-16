@@ -9,6 +9,7 @@ const RENDERER_TARGET: Record<RendererType, "js" | "glsl"> = {
   canvas2d: "js",
   svg: "js",
   glsl: "glsl",
+  genart: "js",
 };
 
 /**

@@ -1,6 +1,6 @@
 {
   "name": "@genart-dev/components",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Reusable sketch components for the .genart ecosystem",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -54,7 +54,7 @@
     "prepublishOnly": "pnpm build"
   },
   "dependencies": {
-    "@genart-dev/format": "^0.2.0"
+    "@genart-dev/format": "^0.6.0"
   },
   "pnpm": {
     "overrides": {
