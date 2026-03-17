@@ -61,3 +61,5 @@ export { default as parametricLSystem } from "./parametric-lsystem.js";
 export { default as phyllotaxisEngine } from "./phyllotaxis-engine.js";
 export { default as tropism } from "./tropism.js";
 export { default as plantGrowth } from "./plant-growth.js";
+export { default as forcePath } from "./force-path.js";
+export { default as branchingPath } from "./branching-path.js";

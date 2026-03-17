@@ -5,7 +5,7 @@ describe("COMPONENT_REGISTRY", () => {
   const entries = Object.values(COMPONENT_REGISTRY);
 
   it("has 81 components", () => {
-    expect(entries.length).toBe(81);
+    expect(entries.length).toBe(83);
   });
 
   it("has no duplicate names", () => {
@@ -112,7 +112,7 @@ describe("COMPONENT_REGISTRY", () => {
   it("has 55 JS components and 18 GLSL components", () => {
     const js = entries.filter((c) => c.target === "js");
     const glsl = entries.filter((c) => c.target === "glsl");
-    expect(js.length).toBe(63);
+    expect(js.length).toBe(65);
     expect(glsl.length).toBe(18);
   });
 

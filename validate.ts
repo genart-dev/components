@@ -14,8 +14,8 @@ function pass(msg: string): void {
 console.log("Validating component registry...\n");
 
 const entries = Object.values(COMPONENT_REGISTRY);
-console.log(`Found ${entries.length} components (expected 55)`);
-if (entries.length !== 55) fail(`Expected 55 components, got ${entries.length}`);
+console.log(`Found ${entries.length} components (expected 57)`);
+if (entries.length !== 57) fail(`Expected 57 components, got ${entries.length}`);
 else pass("Component count");
 
 // Check names match keys
